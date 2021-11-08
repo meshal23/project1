@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body{
+  background: url("../html/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+}
+
+.container{
+  max-width: 400px;
+  background-color: #f4f4f4;
+  height: 590px;
+  margin: 30px auto;
+  padding: 0px 0px;
+  font-family: 'Noto Sans', sans-serif;
+  border-radius: 20px;
+  
+}
+
+.content{
+  margin: 30px auto;
+  text-align: center;
+}
+
+.annual-card{
+  display: flex;
+  max-width: 350px;
+  font-size: 14px;
+  background-color: #fff;
+  margin: 20px 0 20px 25px;
+  padding: 15px;
+}
+
+.message{
+  max-width: 300px;
+  margin-left: 50px;
+}
+
+.btn{
+  display: block;
+  margin: auto 80px;
+  padding: 10px;
+  width: 250px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-1{
+  margin-bottom: 15px;
+  background-color: #382ae1;
+  color: #fff; 
+  box-shadow: 0px 5px 15px #dcd9f7;
+}
+
+.annual-card p{
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.annual-card a{
+  font-weight: bold;
+}
+
+.card-details{
+  margin: 0 80px 0 20px;
+}
+
